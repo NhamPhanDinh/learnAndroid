@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Calculator</string>
+
+    <!-- button content-->
+    <string name="mc_button">MC</string>
+    <string name="m_add_button">M+</string>
+    <string name="m_sub_button">M-</string>
+    <string name="mr_button">MR</string>
+    <string name="c_button">C</string>
+    <string name="negative_button">+/-</string>
+    <string name="division_button">/</string>
+    <string name="multiplication_button">*</string>
+    <string name="addition_button">+</string>
+    <string name="subtract_button">-</string>
+    <string name="equal_button">=</string>
+    <string name="point_button">.</string>
+
+    <string name="zero_button">0</string>
+    <string name="one_button">1</string>
+    <string name="two_button">2</string>
+    <string name="three_button">3</string>
+    <string name="four_button">4</string>
+    <string name="five_button">5</string>
+    <string name="six_button">6</string>
+    <string name="seven_button">7</string>
+    <string name="eight_button">8</string>
+    <string name="nice_button">9</string>
+
+</resources>
