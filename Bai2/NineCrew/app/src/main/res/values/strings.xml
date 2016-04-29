@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Nine Crew</string>
+
+    <!-- layout2 -->
+    <string name="wss_layout2">Why so serious ?</string>
+    <string name="sign_up_layout2">Sign Up</string>
+    <string name="login_layout2">Login</string>
+    <string name="terms_of_use_layout2">Terms of Use</string>
+    <string name="privacy_policy_layout2">Privacy_Policy</string>
+    <string name="not_now_layout2">Not now</string>
+</resources>

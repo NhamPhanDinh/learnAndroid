@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <Button
+            android:id="@+id/wss_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="@dimen/small_margin_layout2"
+            android:background="@color/black"
+            android:text="@string/wss_layout2"
+            android:textColor="@color/white"
+            android:textSize="@dimen/button_size_layout2" />
+
+        <LinearLayout
+            android:id="@+id/sign_up_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/wss_button"
+            android:layout_marginTop="@dimen/small_margin_layout2"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/cyan"
+                android:text="@string/sign_up_layout2"
+                android:textColor="@color/white"
+                android:textSize="@dimen/button_size_layout2" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/silver"
+                android:text="@string/login_layout2"
+                android:textSize="@dimen/button_size_layout2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/terms_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sign_up_layout"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/small_margin_layout2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/terms_of_use_layout2"
+                android:textColor="@color/silver"
+                android:textSize="@dimen/textview_size_layout2" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/privacy_policy_layout2"
+                android:textColor="@color/silver"
+                android:textSize="@dimen/textview_size_layout2" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/terms_layout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/medium_margin_layout2"
+            android:background="@drawable/layout2_button_notnow"
+            android:text="@string/not_now_layout2" />
+    </RelativeLayout>
+
+
+</LinearLayout>
