@@ -11,14 +11,14 @@
     <string name="terms_of_use">Terms of Use</string>
     <string name="privacy_policy">Privacy_Policy</string>
 
-    <!-- layout2 -->
+    <!-- activity_main -->
     <string name="wss_layout2">Why so serious ?</string>
     <string name="not_now_layout2">Not now</string>
 
-    <!-- layout3 -->
+    <!-- activity_login -->
     <string name="forgot_password_layout3">Forgot Password</string>
 
-    <!-- layout4 -->
+    <!-- activity_sign_up -->
     <string name="nickname_layout4">Name / Nickname</string>
     <string name="airline_base">Airline Base</string>
 

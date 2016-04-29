@@ -7,23 +7,23 @@
     <dimen name="small_btn_width_common">40dp</dimen>
     <dimen name="small_btn_width_common_2">45dp</dimen>
 
-    <!-- layout2 -->
-    <dimen name="textview_size_layout2">15sp</dimen>
-    <dimen name="button_size_layout2">15sp</dimen>
-    <dimen name="small_margin_layout2">10dp</dimen>
-    <dimen name="medium_margin_layout2">15dp</dimen>
-    <dimen name="btn_radius_layout2">5dp</dimen>
-    <dimen name="btn_edge_width_layout2">4px</dimen>
+    <!-- activity_main -->
+    <dimen name="textview_size_main">15sp</dimen>
+    <dimen name="button_size_main">15sp</dimen>
+    <dimen name="small_margin_main">10dp</dimen>
+    <dimen name="medium_margin_main">15dp</dimen>
+    <dimen name="btn_radius_main">5dp</dimen>
+    <dimen name="btn_edge_width_main">4px</dimen>
 
-    <!-- layout3 -->
-    <dimen name="textview_size_layout3">15sp</dimen>
-    <dimen name="button_size_layout3">15sp</dimen>
-    <dimen name="small_margin_layout3">10dp</dimen>
-    <dimen name="medium_margin_layout3">15dp</dimen>
+    <!-- activity_login -->
+    <dimen name="textview_size_login">15sp</dimen>
+    <dimen name="button_size_login">15sp</dimen>
+    <dimen name="small_margin_login">10dp</dimen>
+    <dimen name="medium_margin_login">15dp</dimen>
 
-    <!-- layout4 -->
-    <dimen name="textview_size_layout4">15sp</dimen>
-    <dimen name="button_size_layout4">15sp</dimen>
-    <dimen name="small_margin_layout4">10dp</dimen>
-    <dimen name="medium_margin_layout4">15dp</dimen>
+    <!-- activity_sign_up -->
+    <dimen name="textview_size_sign_up">15sp</dimen>
+    <dimen name="button_size_sign_up">15sp</dimen>
+    <dimen name="small_margin_sign_up">10dp</dimen>
+    <dimen name="medium_margin_sign_up">15dp</dimen>
 </resources>

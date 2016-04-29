@@ -1,16 +1,110 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@color/white"
+    android:orientation="vertical"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="uit.nguyenhung.nicecrew.MainActivity">
+    android:paddingTop="@dimen/activity_horizontal_margin">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
-</RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.5">
+
+        <Button
+            android:id="@+id/wss_button"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/small_btn_width_common"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="@dimen/small_margin_main"
+            android:background="@color/black"
+            android:text="@string/wss_layout2"
+            android:textColor="@color/white"
+            android:textSize="@dimen/button_size_main" />
+
+        <LinearLayout
+            android:id="@+id/sign_up_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/wss_button"
+            android:layout_marginTop="@dimen/small_margin_main"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="@dimen/small_btn_width_common"
+                android:layout_marginRight="@dimen/small_margin_main"
+                android:layout_weight="1"
+                android:background="@color/cyan"
+                android:text="@string/sign_up"
+                android:textColor="@color/white"
+                android:textSize="@dimen/button_size_main" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="@dimen/small_btn_width_common"
+                android:layout_marginLeft="@dimen/small_margin_main"
+                android:layout_weight="1"
+                android:background="@color/silver"
+                android:text="@string/login"
+                android:textSize="@dimen/button_size_main" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/terms_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sign_up_layout"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/small_margin_main">
+
+            <TextView
+                android:id="@+id/terms_textview"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/terms_of_use"
+                android:textColor="@color/silver"
+                android:textSize="@dimen/textview_size_main" />
+
+            <TextView
+                android:id="@+id/privacy_textview"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/privacy_policy"
+                android:textColor="@color/silver"
+                android:textSize="@dimen/textview_size_main" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/small_btn_width_common_2"
+            android:layout_below="@+id/terms_layout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/medium_margin_main"
+            android:background="@drawable/layout2_button_notnow"
+            android:paddingLeft="@dimen/medium_margin_main"
+            android:paddingRight="@dimen/medium_margin_main"
+            android:text="@string/not_now_layout2" />
+    </RelativeLayout>
+
+
+</LinearLayout>

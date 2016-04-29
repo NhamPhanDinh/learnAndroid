@@ -31,11 +31,11 @@
             android:layout_height="@dimen/small_btn_width_common"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="@dimen/small_margin_layout3"
+            android:layout_marginTop="@dimen/small_margin_login"
             android:background="@drawable/fb_button"
             android:text="@string/login_with_facebook"
             android:textColor="@color/white"
-            android:textSize="@dimen/button_size_layout3" />
+            android:textSize="@dimen/button_size_login" />
 
         <TextView
             android:id="@+id/or_textview"
@@ -43,9 +43,9 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/fb_login_button"
             android:layout_centerInParent="true"
-            android:layout_marginTop="@dimen/small_margin_layout3"
+            android:layout_marginTop="@dimen/small_margin_login"
             android:text="@string/or"
-            android:textSize="@dimen/textview_size_layout3" />
+            android:textSize="@dimen/textview_size_login" />
 
         <TextView
             android:textColor="@color/black"
@@ -54,17 +54,17 @@
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_below="@+id/or_textview"
-            android:layout_marginTop="@dimen/small_margin_layout3"
+            android:layout_marginTop="@dimen/small_margin_login"
             android:text="@string/email"
-            android:textSize="@dimen/textview_size_layout3" />
+            android:textSize="@dimen/textview_size_login" />
 
         <EditText
-            android:layout_marginTop="@dimen/small_margin_layout3"
+            android:layout_marginTop="@dimen/small_margin_login"
             android:id="@+id/nickname_edt"
             android:layout_width="match_parent"
             android:layout_height="@dimen/small_btn_width_common"
             android:layout_below="@+id/nickname_textview"
-            android:textSize="@dimen/textview_size_layout3" />
+            android:textSize="@dimen/textview_size_login" />
 
         <TextView
             android:textColor="@color/black"
@@ -73,28 +73,28 @@
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_below="@+id/nickname_edt"
-            android:layout_marginTop="@dimen/small_margin_layout3"
+            android:layout_marginTop="@dimen/small_margin_login"
             android:text="@string/password"
-            android:textSize="@dimen/textview_size_layout3" />
+            android:textSize="@dimen/textview_size_login" />
 
         <EditText
-            android:layout_marginTop="@dimen/small_margin_layout3"
+            android:layout_marginTop="@dimen/small_margin_login"
             android:id="@+id/email_edt"
             android:layout_width="match_parent"
             android:layout_height="@dimen/small_btn_width_common"
             android:layout_below="@+id/email_textview"
-            android:textSize="@dimen/textview_size_layout3" />
+            android:textSize="@dimen/textview_size_login" />
 
         <Button
             android:id="@+id/login_button"
             android:layout_width="match_parent"
             android:layout_height="@dimen/small_btn_width_common"
             android:layout_below="@+id/email_edt"
-            android:layout_marginTop="@dimen/small_margin_layout3"
+            android:layout_marginTop="@dimen/small_margin_login"
             android:background="@color/cyan"
             android:text="@string/login"
             android:textColor="@color/white"
-            android:textSize="@dimen/button_size_layout3" />
+            android:textSize="@dimen/button_size_login" />
 
         <TextView
             android:id="@+id/forgot_password_textview"
@@ -102,9 +102,9 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/login_button"
             android:layout_centerInParent="true"
-            android:layout_marginTop="@dimen/small_margin_layout3"
+            android:layout_marginTop="@dimen/small_margin_login"
             android:text="@string/forgot_password_layout3"
-            android:textSize="@dimen/textview_size_layout3" />
+            android:textSize="@dimen/textview_size_login" />
     </RelativeLayout>
 
 
