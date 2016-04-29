@@ -22,12 +22,12 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="2">
+        android:layout_weight="2.5">
 
         <Button
             android:id="@+id/wss_button"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/small_btn_width_common"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginTop="@dimen/small_margin_layout2"
@@ -46,7 +46,7 @@
 
             <Button
                 android:layout_width="0dp"
-                android:layout_height="match_parent"
+                android:layout_height="@dimen/small_btn_width_common"
                 android:layout_weight="1"
                 android:background="@color/cyan"
                 android:text="@string/sign_up_layout2"
@@ -55,7 +55,7 @@
 
             <Button
                 android:layout_width="0dp"
-                android:layout_height="match_parent"
+                android:layout_height="@dimen/small_btn_width_common"
                 android:layout_weight="1"
                 android:background="@color/silver"
                 android:text="@string/login_layout2"
@@ -91,7 +91,7 @@
 
         <Button
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/small_btn_width_common_2"
             android:layout_below="@+id/terms_layout"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="@dimen/medium_margin_layout2"
