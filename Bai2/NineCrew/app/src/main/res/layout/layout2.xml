@@ -5,7 +5,8 @@
     android:background="@color/white"
     android:orientation="vertical"
     android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin">
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_horizontal_margin">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -47,18 +48,20 @@
             <Button
                 android:layout_width="0dp"
                 android:layout_height="@dimen/small_btn_width_common"
+                android:layout_marginRight="@dimen/small_margin_layout2"
                 android:layout_weight="1"
                 android:background="@color/cyan"
-                android:text="@string/sign_up_layout2"
+                android:text="@string/sign_up"
                 android:textColor="@color/white"
                 android:textSize="@dimen/button_size_layout2" />
 
             <Button
                 android:layout_width="0dp"
                 android:layout_height="@dimen/small_btn_width_common"
+                android:layout_marginLeft="@dimen/small_margin_layout2"
                 android:layout_weight="1"
                 android:background="@color/silver"
-                android:text="@string/login_layout2"
+                android:text="@string/login"
                 android:textSize="@dimen/button_size_layout2" />
         </LinearLayout>
 
@@ -71,20 +74,22 @@
             android:paddingTop="@dimen/small_margin_layout2">
 
             <TextView
+                android:id="@+id/terms_textview"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="@string/terms_of_use_layout2"
+                android:text="@string/terms_of_use"
                 android:textColor="@color/silver"
                 android:textSize="@dimen/textview_size_layout2" />
 
             <TextView
+                android:id="@+id/privacy_textview"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="@string/privacy_policy_layout2"
+                android:text="@string/privacy_policy"
                 android:textColor="@color/silver"
                 android:textSize="@dimen/textview_size_layout2" />
         </LinearLayout>
@@ -96,6 +101,8 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="@dimen/medium_margin_layout2"
             android:background="@drawable/layout2_button_notnow"
+            android:paddingLeft="@dimen/medium_margin_layout2"
+            android:paddingRight="@dimen/medium_margin_layout2"
             android:text="@string/not_now_layout2" />
     </RelativeLayout>
 

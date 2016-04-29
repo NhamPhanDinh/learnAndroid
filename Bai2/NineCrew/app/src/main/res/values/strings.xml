@@ -1,19 +1,25 @@
 <resources>
     <string name="app_name">Nine Crew</string>
 
+    <!-- common -->
+    <string name="login_with_facebook">Login with Facebook</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="or">Or</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="terms_of_use">Terms of Use</string>
+    <string name="privacy_policy">Privacy_Policy</string>
+
     <!-- layout2 -->
     <string name="wss_layout2">Why so serious ?</string>
-    <string name="sign_up_layout2">Sign Up</string>
-    <string name="login_layout2">Login</string>
-    <string name="terms_of_use_layout2">Terms of Use</string>
-    <string name="privacy_policy_layout2">Privacy_Policy</string>
     <string name="not_now_layout2">Not now</string>
 
     <!-- layout3 -->
-    <string name="login_with_facebook_layout3">Login with Facebook</string>
-    <string name="login_layout3">Login</string>
-    <string name="or_layout3">Or</string>
-    <string name="email_layout3">E-mail</string>
-    <string name="password_layout3">Password</string>
     <string name="forgot_password_layout3">Forgot Password</string>
+
+    <!-- layout4 -->
+    <string name="nickname_layout4">Name / Nickname</string>
+    <string name="airline_base">Airline Base</string>
+
 </resources>

@@ -1,22 +1,29 @@
 <resources>
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">50dp</dimen>
-    <dimen name="activity_vertical_margin">50dp</dimen>
+    <dimen name="activity_vertical_margin">40dp</dimen>
 
     <!-- common -->
     <dimen name="small_btn_width_common">40dp</dimen>
     <dimen name="small_btn_width_common_2">45dp</dimen>
+
     <!-- layout2 -->
     <dimen name="textview_size_layout2">15sp</dimen>
     <dimen name="button_size_layout2">15sp</dimen>
-    <dimen name="small_margin_layout2">15dp</dimen>
-    <dimen name="medium_margin_layout2">10dp</dimen>
+    <dimen name="small_margin_layout2">10dp</dimen>
+    <dimen name="medium_margin_layout2">15dp</dimen>
     <dimen name="btn_radius_layout2">5dp</dimen>
     <dimen name="btn_edge_width_layout2">4px</dimen>
 
     <!-- layout3 -->
     <dimen name="textview_size_layout3">15sp</dimen>
     <dimen name="button_size_layout3">15sp</dimen>
-    <dimen name="small_margin_layout3">15dp</dimen>
-    <dimen name="medium_margin_layout3">10dp</dimen>
+    <dimen name="small_margin_layout3">10dp</dimen>
+    <dimen name="medium_margin_layout3">15dp</dimen>
+
+    <!-- layout4 -->
+    <dimen name="textview_size_layout4">15sp</dimen>
+    <dimen name="button_size_layout4">15sp</dimen>
+    <dimen name="small_margin_layout4">10dp</dimen>
+    <dimen name="medium_margin_layout4">15dp</dimen>
 </resources>
